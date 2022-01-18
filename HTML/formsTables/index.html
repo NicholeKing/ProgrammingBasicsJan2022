@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Tables</title>
+</head>
+
+<body>
+    <!-- Code a little, test a lot! -->
+    <h1>Forms and Tables</h1>
+    <p>You will be making forms and tables all the dang time in this program.</p>
+    <h2>Forms</h2>
+    <p>Forms are the ways in which we get input from the user.</p>
+    <form>
+        <!-- Form controls -->
+        <!-- Every HTML element has a default display property value -->
+        <!-- Divs have a block value for their display property -->
+        <!-- Labels and inputs have an inline value for their display property -->
+        <div>
+            <label for="your_name">Your name:</label>
+            <input type="text" name="your_name" id="your_name">
+        </div>
+        <div>
+            <label for="birthdate">Birthday:</label>
+            <input type="date" name="birthday" id="birthday">
+        </div>
+        <div>
+            <label for="fav_tv">Favorite TV show:</label>
+            <select name="fav_tv" id="fav_tv">
+                <option value="no_choice" hidden selected disabled></option>
+                <option value="stranger_things">Stranger Things</option>
+                <option value="peacemaker">Peacemaker</option>
+                <option value="the_boys">The Boys</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="SEND">
+        </div>
+    </form>
+    <h2>Tables</h2>
+    <p>Tables are a great way to display related information.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Narciso Lobo</td>
+                <td>nlobo@codingdojo.com</td>
+                <td>Chicago</td>
+            </tr>
+            <tr>
+                <td>Kermit the Frog</td>
+                <td>kfrog@muppets.com</td>
+                <td>New York City</td>
+            </tr>
+            <tr>
+                <td>Miss Piggy</td>
+                <td>mpiggy@muppets.com</td>
+                <td>New York City</td>
+            </tr>
+            <tr>
+                <td colspan="2">Fozzy Bear</td>
+                <td>New York City</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
