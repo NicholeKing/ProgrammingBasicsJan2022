@@ -1,0 +1,54 @@
+/* CSS reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color:rgb(101, 77, 238);
+    background-color: gold;
+    font-size: 50px;
+    text-align: center;
+    /* margin: 10px; */
+    padding: 20px;
+}
+
+#green {
+    background-color: rgb(127, 199, 127);
+    /* Ways to specifcy padding */
+    /* This applies around the entire object */
+    padding: 10px;
+    /* I can specify a top/bottom and a left/right, first value is top/bottom and second is left/right */
+    /* padding: 10px 0px; */
+    /* We can choose every single unique padding amount, starting from top > right > bottom > left */
+    /* padding: 20px 0px 50px 10px; */
+    /* margin-bottom: 20px; */
+}
+
+td, th {
+    border-style: solid; 
+    padding: 5px;
+}
+
+th {
+    background-color: aquamarine;
+}
+
+.highlight {
+    background-color: goldenrod;
+    color: blue;
+}
+
+#form {
+    margin: 20px 5px;
+}
+
+.formGroup {
+    margin: 10px;
+}
+
+table {
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+}
