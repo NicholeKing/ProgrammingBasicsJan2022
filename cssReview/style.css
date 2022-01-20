@@ -1,0 +1,67 @@
+/* 
+CSS Reset
+I do this because I want to be in control of my margins and padding - not the browser.
+*/
+
+/* BE CAREFUL WITH WHAT YOU INCLUDE IN YOUR RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  color: green;
+}
+
+.borderBox {
+  width: 500px;
+  min-height: 200px;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+.container {
+  width: 70%;
+  /* background-color: blanchedalmond; */
+  margin: 0 auto;
+}
+
+.content {
+  width: 500px;
+  min-height: 200px;
+  background-color: brown;
+  padding: 20px;
+}
+
+/* .borderBox, .content {
+  display: inline-block;
+} */
+
+.parent {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  list-style: none;
+  width: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: darkorchid;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: chocolate;
+}
